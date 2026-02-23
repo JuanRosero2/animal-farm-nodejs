@@ -40,4 +40,4 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/animal-farm-nodejs:latest
-            ghcr.io/${{ github.repository_owner }}/animal-farm-nodejs:latest
+            ghcr.io/juanrosero2/animal-farm-nodejs:latest
